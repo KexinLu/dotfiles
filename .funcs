@@ -1,0 +1,7 @@
+function project () {
+    cd $GOPATH/src/github.com/KexinLu/$1
+}
+
+function shell () {
+    docker exec -ti $(docker ps | grep $1 | cut -d ' ' -f1) /bin/bash
+}

@@ -1,0 +1,4 @@
+export GOPATH=$HOME/Workspace/GoWorkspace
+export GOROOT=/usr/local/opt/go/libexec
+export GOBIN=$GOPATH/bin
+export PATH=$PATH:$GOBIN:/usr/local/go/bin:/usr/local/Cellar

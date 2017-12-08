@@ -1,0 +1,5 @@
+alias clera="clear"
+alias g="cd $GOPATH/src/bitbucket.org/pec_api"
+alias ll="ls -alF"
+alias l="ls"
+alias rc=". ~/.bashrc"
