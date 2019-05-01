@@ -15,7 +15,6 @@
 daemonize  # background keynav
 clear      # clear all previous keybindings
 
-q record ~/.keynav_macros
 shift+at playback
 #ctrl+semicolon start, sh "exec transset-df -i $(xdotool search --class keynav) 0.3"
 e grid-nav toggle
@@ -36,10 +35,13 @@ c move-left,move-down
 n move-right,move-down
 
 space warp,click 1,end
+ctrl+space drag 1
 semicolon warp,end
 1 click 1
 2 click 2
 3 click 3
+
+q warp
 #1 cell-select 1x1,warp,end
 #2 cell-select 1x2,warp,end
 #3 cell-select 2x1,warp,end
@@ -74,7 +76,6 @@ t sh "xdotool search --title -- '- Google Chrome' windowactivate --sync key --wi
 
 ### Drag examples
 # Start drag holding the left mouse button
-#q drag 1
 # Start drag holding middle mouse + control and shift
 #w warp
 
