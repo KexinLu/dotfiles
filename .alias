@@ -1,5 +1,6 @@
 alias clera="clear"
-alias g="cd $GOPATH/src/bitbucket.org/pec_api"
 alias ll="ls -alF"
 alias l="ls"
 alias rc=". ~/.bashrc"
+alias gst="git status"
+alias gap="git add -p"
