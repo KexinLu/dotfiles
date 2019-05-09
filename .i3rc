@@ -1,0 +1,6 @@
+setup_display(){
+    xrandr --output eDP-1 -o left
+    xrandr --output DP-2-3 -o right --rotate left
+}
+
+setxkbmap -option caps:swapescape
